@@ -1,0 +1,122 @@
+body{
+	font-family: georgia, times, serif;
+	color:#333;
+	font-size: 1.3rem;
+	line-height: 1.6em;
+	margin:0;
+}
+
+h1{
+	font-size: 2rem;
+	line-height: 1.3em;
+}
+
+p{
+	margin-bottom: 1.6em;
+}
+.container{
+	width: 100%;
+	margin:0 auto;
+}
+
+.header{
+	width: 100%;
+	height: 16%;
+	background: #333;
+	color: white;
+	
+	position: fixed;
+	left: 0;
+	top: 0;
+	right:0;
+}
+
+.header a{
+	color: white;
+	text-decoration: none;
+}
+
+.logo-nav-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.logo{
+	letter-spacing: 15px;
+	font-size: 1.3em;
+}
+.menu-icon{
+	display: none;
+
+}
+   .navegacion ul{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	    }
+
+	  .navegacion ul li{
+		display: inline-block;
+	   }
+
+	 .navegacion ul li a{
+		display: block;
+		padding: 0.5rem 1rem;
+		transition: all 0.4s linear;
+		border-radius: 5px;
+	    }
+	 .navegacion ul li a:hover {
+		background: #4a4a4a;
+	  }
+
+      .main{
+      	width: 70%;
+      	box-sizing: border-box;
+      	float: left;
+	   padding: 10rem;
+	  }
+	  	.main img{
+
+	  		width: 100%;
+	  		height: auto;
+	  		box-sizing: border-box;
+	  
+}
+
+
+	}
+	
+	@media only screen and (max-width: 750px) {
+		
+		.menu-icon{
+			display: block;
+			cursor: pointer;
+			padding: 0.5rem 1rem;
+		}
+	
+		.navegacion{
+
+			width: 100%;
+			margin-top: 1rem;
+		}
+		.navegacion ul {
+			display: none;
+		}
+		.navegacion ul.show {
+			display: block;
+		}
+
+	.navegacion ul li{
+		display: block;
+	}
+
+	.navegacion ul li a{
+		display: block;
+		padding: 0.5rem 0;
+		transition: all 0.4s linear;
+		border-radius: 5px;
+	}
+	.navegacion ul li a:hover {
+		background: #4a4a4a;
+	}
